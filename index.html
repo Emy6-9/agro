@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroCarbono Conectado: Colheita Inteligente, Planeta Respire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght=400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">AgroCarbono Conectado</a>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre o Projeto</a></li>
+                    <li><a href="#como-funciona">Como Funciona</a></li>
+                    <li><a href="#carbono">Sequestro de Carbono</a></li>
+                    <li><a href="#casos-sucesso">Casos de Sucesso</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="hamburger-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content container">
+                <h1>AgroCarbono Conectado: Colheita Inteligente, Planeta Respire.</h1>
+                <p>Integre IoT e IA para uma agricultura mais produtiva, sustentável e regenerativa no Paraná.</p>
+                <div class="cta-buttons">
+                    <a href="#sobre" class="btn btn-primary">Saiba Mais</a>
+                    <a href="#contato" class="btn btn-secondary">Quero Conhecer o Projeto</a>
+                </div>
+                <div class="quick-calculator">
+                    <h2>Estime Seus Ganhos!</h2>
+                    <p>Veja o potencial de aumento de produtividade e sequestro de carbono na sua propriedade.</p>
+                    <label for="area">Área (hectares):</label>
+                    <input type="number" id="area" placeholder="Ex: 50">
+                    <label for="culture">Cultura Principal:</label>
+                    <select id="culture">
+                        <option value="soja">Soja</option>
+                        <option value="milho">Milho</option>
+                        <option value="trigo">Trigo</option>
+                        <option value="hortalicas">Hortaliças</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <button class="btn btn-calculate">Calcular Potencial</button>
+                    <div id="results">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section-padded bg-light">
+            <div class="container">
+                <h2>Sobre o Projeto</h2>
+                <p class="section-description">Nossa missão é revolucionar a agricultura do Paraná, unindo tecnologia de ponta e sustentabilidade.</p>
+
+                <div class="info-blocks">
+                    <div class="info-block">
+                        <h3>Nossa Missão</h3>
+                        <p>Capacitar produtores rurais com ferramentas inteligentes para otimizar suas lavouras e contribuir ativamente para a mitigação das mudanças climáticas.</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>O Problema</h3>
+                        <p>Desperdício de recursos, baixa eficiência e a necessidade de práticas agrícolas mais sustentáveis frente aos desafios climáticos.</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>Nossa Solução</h3>
+                        <p>Um sistema integrado de IoT e IA que oferece monitoramento preciso, recomendações personalizadas e estimativa do sequestro de carbono.</p>
+                    </div>
+                </div>
+
+                <div class="how-it-works-flow">
+                    <h3>Como Funciona? (Visão Geral)</h3>
+                    <div class="flow-item">
+                        <i class="fas fa-microchip"></i>
+                        <p>1. Sensores Coletam Dados</p>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-item">
+                        <i class="fas fa-wifi"></i>
+                        <p>2. Conectividade Envia</p>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-item">
+                        <i class="fas fa-cloud"></i>
+                        <p>3. Dados na Nuvem</p>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-item">
+                        <i class="fas fa-brain"></i>
+                        <p>4. IA Analisa e Recomenda</p>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="flow-item">
+                        <i class="fas fa-chart-line"></i>
+                        <p>5. Produtor Decide</p>
+                    </div>
+                </div>
+
+                <h3>Nossa Equipe</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="https://via.placeholder.com/100" alt="Foto Membro 1">
+                        <h4>João Silva</h4>
+                        <p>Líder do Projeto</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://via.placeholder.com/100" alt="Foto Membro 2">
+                        <h4>Maria Oliveira</h4>
+                        <p>Engenheira Agrônoma</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="https://via.placeholder.com/100" alt="Foto Membro 3">
+                        <h4>Carlos Souza</h4>
+                        <p>Especialista em IoT/IA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona" class="section-padded">
+            <div class="container">
+                <h2>Como Nosso Sistema Trabalha Por Você</h2>
+                <p class="section-description">Da coleta de dados no campo à recomendação inteligente, veja o fluxo completo.</p>
+
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Sensores Inteligentes</h3>
+                        <p>Nossos sensores robustos monitoram umidade, pH, nutrientes, temperatura e luz diretamente no solo e ambiente.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-satellite-dish"></i>
+                        <h3>Conectividade Otimizada</h3>
+                        <p>Utilizamos tecnologias como LoRaWAN e 4G/5G para garantir que seus dados cheguem à nuvem, mesmo em áreas remotas do Paraná.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-robot"></i>
+                        <h3>Inteligência Artificial</h3>
+                        <p>Nossa IA analisa milhões de dados para gerar recomendações precisas de irrigação, fertilização e manejo do solo.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h3>Dashboard Intuitivo</h3>
+                        <p>Acompanhe tudo em tempo real através de um painel de controle amigável no seu computador ou celular.</p>
+                    </div>
+                </div>
+
+                <div class="video-explanation">
+                    <h3>Veja em Ação!</h3>
+                    <div class="video-placeholder">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>Um vídeo animado mostrando o fluxo de dados e os benefícios do AgroCarbono Conectado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="carbono" class="section-padded bg-light">
+            <div class="container">
+                <h2>Sequestro de Carbono: Sua Fazenda, Nosso Futuro</h2>
+                <p class="section-description">A agricultura pode ser parte da solução climática. Entenda como.</p>
+
+                <div class="carbon-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-tree"></i>
+                        <h3>Solo Mais Rico</h3>
+                        <p>Aumentamos a matéria orgânica, melhorando a fertilidade e a capacidade de retenção de água.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Menos Emissões</h3>
+                        <p>Reduzimos a necessidade de fertilizantes sintéticos e otimizamos o uso de máquinas, diminuindo a pegada de carbono.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-coins"></i>
+                        <h3>Potencial de Créditos</h3>
+                        <p>Facilitamos o monitoramento para que sua fazenda possa se qualificar para mercados de carbono.</p>
+                    </div>
+                </div>
+
+                <div class="practices-grid">
+                    <h3>Práticas Recomendadas para Sequestro de Carbono</h3>
+                    <div class="practice-item">
+                        <img src="https://via.placeholder.com/150" alt="Plantio Direto">
+                        <h4>Plantio Direto</h4>
+                        <p>Minimiza a perturbação do solo, mantendo o carbono armazenado.</p>
+                    </div>
+                    <div class="practice-item">
+                        <img src="https://via.placeholder.com/150" alt="Culturas de Cobertura">
+                        <h4>Culturas de Cobertura</h4>
+                        <p>Protegem o solo entre safras e adicionam biomassa, fixando CO2.</p>
+                    </div>
+                    <div class="practice-item">
+                        <img src="https://via.placeholder.com/150" alt="Sistemas Agroflorestais">
+                        <h4>Sistemas Agroflorestais</h4>
+                        <p>Integração de árvores e culturas para maior biodiversidade e sequestro.</p>
+                    </div>
+                </div>
+
+                <div class="impact-meter">
+                    <h3>Seu Potencial de Impacto (Simulado)</h3>
+                    <div class="meter-display">
+                        <span id="carbon-tons">0</span> Toneladas de CO2/ano (por hectare)
+                    </div>
+                    <p>Ao adotar nossas práticas, sua propriedade pode sequestrar...</p>
+                    <button class="btn btn-simulate-carbon">Simular Potencial Regenerativo</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="casos-sucesso" class="section-padded">
+            <div class="container">
+                <h2>Casos de Sucesso no Paraná</h2>
+                <p class="section-description">Veja como o AgroCarbono Conectado está transformando propriedades rurais.</p>
+
+                <div class="testimonial-carousel">
+                    <div class="testimonial-item">
+                        <img src="https://via.placeholder.com/80" alt="Foto Produtor 1">
+                        <blockquote>"Aumentamos nossa produtividade em 15% e economizamos 20% de água. O sistema é incrível!"</blockquote>
+                        <cite>João da Silva, Produtor Rural em Cascavel, PR</cite>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="https://via.placeholder.com/80" alt="Foto Produtor 2">
+                        <blockquote>"Nunca imaginei que a tecnologia pudesse ser tão acessível e fazer tanta diferença na minha lavoura."</blockquote>
+                        <cite>Maria Oliveira, Produtora de Orgânicos em Londrina, PR</cite>
+                    </div>
+                </div>
+
+                <div class="image-gallery">
+                    <h3>Nossas Imagens do Campo</h3>
+                    <img src="https://via.placeholder.com/300x200" alt="Fazenda Piloto 1">
+                    <img src="https://via.placeholder.com/300x200" alt="Sensor Instalado">
+                    <img src="https://via.placeholder.com/300x200" alt="Dashboard Exemplo">
+                    <img src="https://via.placeholder.com/300x200" alt="Colheita Aprimorada">
+                </div>
+
+                <div class="video-testimonials">
+                    <h3>Depoimentos em Vídeo</h3>
+                    <div class="video-placeholder-small">
+                        <iframe width="320" height="180" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                        <p>Depoimento de um produtor que já utiliza o sistema.</p>
+                    </div>
+                    <div class="video-placeholder-small">
+                        <iframe width="320" height="180" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                        <p>O agrônomo explica os benefícios técnicos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section-padded bg-dark text-white">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p class="section-description">Dúvidas? Quer saber como o AgroCarbono Conectado pode transformar sua propriedade? Fale conosco!</p>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h3>Envie sua Mensagem</h3>
+                        <form action="#" method="POST">
+                            <input type="text" placeholder="Seu Nome" required>
+                            <input type="email" placeholder="Seu E-mail" required>
+                            <input type="text" placeholder="Assunto">
+                            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Curitiba, Paraná, Brasil</p>
+                        <p><i class="fas fa-envelope"></i> contato@agrocarbonoconectado.com.br</p>
+                        <p><i class="fas fa-phone"></i> (41) 99999-9999</p>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="google-map-placeholder">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14414.77095400263!2d-49.27367855!3d-25.42491185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3f89e13d9f1%3A0xf209214d0263b8d4!2sCuritiba%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1678912345678!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AgroCarbono Conectado. Todos os direitos reservados. Localizado em Curitiba, Paraná.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.querySelector('.hamburger-menu');
+            const navList = document.querySelector('.nav-list');
+
+            hamburger.addEventListener('click', () => {
+                navList.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+
+            // Fechar menu ao clicar em um item (mobile)
+            document.querySelectorAll('.nav-list li a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navList.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+
+            // Exemplo de interatividade para a calculadora rápida (MOCK, precisa de lógica real)
+            document.querySelector('.btn-calculate').addEventListener('click', () => {
+                const area = document.getElementById('area').value;
+                const culture = document.getElementById('culture').value;
+                const resultsDiv = document.getElementById('results');
+
+                if (area && culture) {
+                    const productivityGain = (area * 0.15).toFixed(1); // Ex: 15% de ganho fictício
+                    const waterSavings = (area * 50).toFixed(0); // Ex: 50L/ha de economia fictícia
+                    const carbonSequestration = (area * 2).toFixed(1); // Ex: 2 toneladas CO2/ha fictício
+
+                    resultsDiv.innerHTML = `
+                        <p><strong>Resultados Estimados:</strong></p>
+                        <p>🎯 Aumento de Produtividade: ${productivityGain}%</p>
+                        <p>💧 Economia de Água: ${waterSavings} litros/ano</p>
+                        <p>🌿 Sequestro de Carbono: ${carbonSequestration} toneladas CO2/ano</p>
+                        <p class="small-text"><i>*Estimativas simuladas para fins demonstrativos.</i></p>
+                    `;
+                } else {
+                    resultsDiv.innerHTML = `<p class="error-text">Por favor, preencha a área e selecione uma cultura.</p>`;
+                }
+            });
+
+            // Exemplo para o Impactômetro de Carbono (MOCK)
+            document.querySelector('.btn-simulate-carbon').addEventListener('click', () => {
+                const carbonTonsDisplay = document.getElementById('carbon-tons');
+                const randomTons = (Math.random() * (5 - 1) + 1).toFixed(1); // 1 a 5 toneladas por hectare
+                carbonTonsDisplay.textContent = randomTons;
+            });
+        });
+    </script>
+</body>
+</html>
